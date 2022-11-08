@@ -8,7 +8,7 @@ import { FaCodepen } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-teal-50">
+    <div className="navbar bg-slate-50">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -32,44 +32,47 @@ const Navbar = () => {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <div className="rating">
+              <div className="rating rating-sm">
                 <input
                   type="radio"
-                  name="rating-4"
-                  className="mask mask-star-2 bg-green-500"
+                  name="rating-6"
+                  className="mask mask-star-2 bg-purple-900 -mr-2"
+                />
+                <input
+                  type="radio"
+                  name="rating-6"
+                  className="mask mask-star-2 bg-orange-500 -mr-2"
+                />
+                <input
+                  type="radio"
+                  name="rating-6"
+                  className="mask mask-star-2 bg-pink-600"
                 />
               </div>
             </li>
+            <div className="pl-8 pr-8">
+              <div className="mx-auto">
+                <h1>Get 10% OFF on your first purchase. Use Code : </h1>
+
+                <h1 className="lg:ml-32">BEAUTY 10</h1>
+              </div>
+            </div>
             <li>
-              <a>Item 2</a>
-            </li>
-            <li>
-              <div className="rating">
+              <div className="rating rating-sm">
                 <input
                   type="radio"
-                  name="rating-4"
-                  className="mask mask-star-2 bg-green-500"
+                  name="rating-6"
+                  className="mask mask-star-2 bg-pink-600 -mr-2"
                 />
                 <input
                   type="radio"
-                  name="rating-4"
-                  className="mask mask-star-2 bg-green-500"
-                  checked
+                  name="rating-6"
+                  className="mask mask-star-2 bg-orange-500 -mr-2"
                 />
                 <input
                   type="radio"
-                  name="rating-4"
-                  className="mask mask-star-2 bg-green-500"
-                />
-                <input
-                  type="radio"
-                  name="rating-4"
-                  className="mask mask-star-2 bg-green-500"
-                />
-                <input
-                  type="radio"
-                  name="rating-4"
-                  className="mask mask-star-2 bg-green-500"
+                  name="rating-6"
+                  className="mask mask-star-2 bg-purple-900 "
                 />
               </div>
             </li>

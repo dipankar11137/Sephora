@@ -7,7 +7,7 @@ import { FaSearch } from "react-icons/fa";
 
 const Navbar2 = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 mx-10">
       <div className="navbar-start">
         <div>
           <div className=" flex border-b-2 ml-10">
@@ -25,7 +25,7 @@ const Navbar2 = () => {
           <h1 className="text-6xl font-semibold font-mono ">SEPHORA</h1>
         </ul>
       </div>
-      <div className="navbar-end mr-10">
+      <div className="navbar-end mr-32">
         <h1 className="mr-8 border-r-2 border-stone-400 my-auto">
           <FaRegHeart className="text-pink-500 mr-4" />
         </h1>
