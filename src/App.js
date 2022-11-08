@@ -1,9 +1,14 @@
 import "./App.css";
+import Home from "./Components/Page/Home/Home";
+import Navbar from "./Components/Page/Share/Navbar";
+import Navbar2 from "./Components/Page/Share/Navbar2";
 
 function App() {
   return (
     <div>
-      <h1 className="bg-red-500">Hello</h1>
+      <Navbar />
+      <Navbar2 />
+      {/* <Home /> */}
     </div>
   );
 }
