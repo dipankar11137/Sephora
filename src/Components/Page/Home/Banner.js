@@ -24,7 +24,7 @@ const Banner = () => {
   };
   return (
     <div className="">
-      <div className=" ">
+      <div className=" px-8">
         <Slider {...settings}>
           <div div className="relative  ">
             <img className="object-fill sliderImg " src={img1} alt="" />
