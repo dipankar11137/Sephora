@@ -2,10 +2,9 @@ import React from "react";
 
 const Navbar3 = () => {
   return (
-    <div className="mx-24 mt-8">
-      <h1 className="shadow-2xl">hello</h1>
+    <div className="mx-24 mt-8 ">
       <div className="grid grid-cols-7 gap-x-4 border-b-2 pb-3">
-        <h1 className="font-bold  lg:pl-10 hover:text-pink-500 hover:shadow-xl text-center">
+        <h1 className="font-bold p-3 hover:text-pink-500 hover:shadow-xl text-center">
           SALE
         </h1>
         <h1 className="font-bold hover:text-pink-500 hover:shadow-xl text-center p-3 ">

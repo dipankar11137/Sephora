@@ -7,10 +7,10 @@ import { FaSearch } from "react-icons/fa";
 
 const Navbar2 = () => {
   return (
-    <div className="navbar bg-base-100 mx-10">
+    <div className="navbar bg-base-100 px-10">
       <div className="navbar-start">
         <div>
-          <div className=" flex border-b-2 ml-10">
+          <div className=" flex border-b-2 ml-14">
             <FaSearch className="text-pink-500 mr-2 my-auto" />
             <input
               type="text"

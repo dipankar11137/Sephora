@@ -1,10 +1,11 @@
 import React from "react";
+import Banner from "./Banner";
 import Step1 from "./Step1";
 
 const Home = () => {
   return (
     <div>
-      <h1 className="border-r-4 border-pink-500">Home</h1>
+      <Banner />
       <Step1 />
     </div>
   );

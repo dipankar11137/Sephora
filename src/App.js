@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <Navbar2 />
       <Navbar3 />
-      <Home />
+      {/* <Home /> */}
     </div>
   );
 }
