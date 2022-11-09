@@ -6,6 +6,8 @@ import "../../CSS/Banner.css";
 import img1 from "../../../Images/Banner/Morroccanoil_Homepagebanner_Bodycaredesktop.webp";
 import img2 from "../../../Images/Banner/Givenchy_Topbannerdesktop.webp";
 import img3 from "../../../Images/Banner/ND_Homepagebannerdesktop.webp";
+import img4 from "../../../Images/Banner/Mufe_Homepagebanner.webp";
+import img5 from "../../../Images/Banner//SC_TopBannerdesktop.webp";
 
 const Banner = () => {
   const settings = {
@@ -24,14 +26,20 @@ const Banner = () => {
     <div className="">
       <div className=" ">
         <Slider {...settings}>
-          <div div className="relative  w-screen">
+          <div div className="relative  ">
             <img className="object-fill sliderImg " src={img1} alt="" />
           </div>
-          <div div className="relative h-scren w-screen ">
+          <div div className="relative h-scren">
             <img className="object-fill sliderImg  " src={img2} alt="" />
           </div>
-          <div div className="relative h-scren w-screen ">
+          <div div className="relative h-scren">
             <img className="object-fill sliderImg  " src={img3} alt="" />
+          </div>
+          <div div className="relative h-scren">
+            <img className="object-fill sliderImg  " src={img4} alt="" />
+          </div>
+          <div div className="relative h-scren">
+            <img className="object-fill sliderImg  " src={img5} alt="" />
           </div>
         </Slider>
       </div>
