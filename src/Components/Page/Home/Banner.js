@@ -1,4 +1,5 @@
 import React from "react";
+import "../../CSS/Style.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -22,23 +23,24 @@ const Banner = () => {
     pauseOnHover: true,
     fade: true,
   };
+
   return (
-    <div className="">
-      <div className=" px-8">
+    <div className="mt-5">
+      <div className="">
         <Slider {...settings}>
-          <div div className="relative  ">
+          <div div className="  ">
             <img className="object-fill sliderImg " src={img1} alt="" />
           </div>
-          <div div className="relative h-scren">
+          <div div className=" h-scren">
             <img className="object-fill sliderImg  " src={img2} alt="" />
           </div>
-          <div div className="relative h-scren">
+          <div div className=" h-scren">
             <img className="object-fill sliderImg  " src={img3} alt="" />
           </div>
-          <div div className="relative h-scren">
+          <div div className=" h-scren">
             <img className="object-fill sliderImg  " src={img4} alt="" />
           </div>
-          <div div className="relative h-scren">
+          <div div className=" h-scren">
             <img className="object-fill sliderImg  " src={img5} alt="" />
           </div>
         </Slider>

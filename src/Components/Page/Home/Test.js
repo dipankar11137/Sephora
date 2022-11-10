@@ -1,14 +1,17 @@
 import React from "react";
-import "../../CSS/Style.css";
+// import "../../CSS/Style.css";
+import "../../CSS/Test.css";
 
 const Test = () => {
   return (
     <div>
       <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
         <div class="dropdown">
           <button class="dropbtn">
             Dropdown
-            {/* <i class="fa fa-caret-down"></i> */}
+            <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
             <div class="header">

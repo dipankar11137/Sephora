@@ -1,4 +1,5 @@
 import React from "react";
+import "../../CSS/JustLanded.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import embody from "../../../Images/Just/MO_Video_SS.webp";
@@ -7,6 +8,8 @@ import img1 from "../../../Images/Just/1 (1).webp";
 import img2 from "../../../Images/Just/1 (2).webp";
 import img3 from "../../../Images/Just/1 (3).webp";
 import img4 from "../../../Images/Just/1 (4).webp";
+import { FaShoppingBag } from "react-icons/fa";
+import { FaHeart } from "react-icons/fa";
 const JustLanded = () => {
   const settings = {
     dots: true,
@@ -28,9 +31,24 @@ const JustLanded = () => {
           <div className="px-10  mx-2">
             <Slider {...settings}>
               <div>
-                <img src={img1} alt="" />
+                <div class="container">
+                  <img src={img1} alt="" class="image" />
+                  <div class="overlay">
+                    <div class="text flex gap-8">
+                      <div>
+                        <FaShoppingBag className="text-4xl text-pink-50 hover:cursor-pointer hover:text-red-500" />
+                        <h1 className="textSize">Shop Now</h1>
+                      </div>
+                      <div>
+                        {" "}
+                        <FaHeart className="text-4xl text-pink-50 hover:cursor-pointer hover:text-red-500" />
+                        <h1 className="textSize">FAVOURITE</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div className="bg-white text-center">
-                  <h1>NEW</h1>
+                  <h1>NEW2</h1>
                   <p>MOROCCANOIL</p>
                   <p>Hand Cream</p>
                   <p>Maroc</p>
@@ -38,9 +56,24 @@ const JustLanded = () => {
                 </div>
               </div>
               <div>
-                <img src={img2} alt="" />
+                <div class="container">
+                  <img src={img2} alt="" class="image" />
+                  <div class="overlay">
+                    <div class="text flex gap-8">
+                      <div>
+                        <FaShoppingBag className="text-4xl text-pink-50 hover:cursor-pointer hover:text-red-500" />
+                        <h1 className="textSize">Shop Now</h1>
+                      </div>
+                      <div>
+                        {" "}
+                        <FaHeart className="text-4xl text-pink-50 hover:cursor-pointer hover:text-red-500" />
+                        <h1 className="textSize">FAVOURITE</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div className="bg-white text-center">
-                  <h1>NEW</h1>
+                  <h1>NEW2</h1>
                   <p>MOROCCANOIL</p>
                   <p>Hand Cream</p>
                   <p>Maroc</p>
@@ -48,9 +81,24 @@ const JustLanded = () => {
                 </div>
               </div>
               <div>
-                <img src={img3} alt="" />
+                <div class="container">
+                  <img src={img3} alt="" class="image" />
+                  <div class="overlay">
+                    <div class="text flex gap-8">
+                      <div>
+                        <FaShoppingBag className="text-4xl text-pink-50 hover:cursor-pointer hover:text-red-500" />
+                        <h1 className="textSize">Shop Now</h1>
+                      </div>
+                      <div>
+                        {" "}
+                        <FaHeart className="text-4xl text-pink-50 hover:cursor-pointer hover:text-red-500" />
+                        <h1 className="textSize">FAVOURITE</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div className="bg-white text-center">
-                  <h1>NEW</h1>
+                  <h1>NEW2</h1>
                   <p>MOROCCANOIL</p>
                   <p>Hand Cream</p>
                   <p>Maroc</p>
@@ -58,9 +106,24 @@ const JustLanded = () => {
                 </div>
               </div>
               <div>
-                <img src={img4} alt="" />
+                <div class="container">
+                  <img src={img4} alt="" class="image" />
+                  <div class="overlay">
+                    <div class="text flex gap-8">
+                      <div>
+                        <FaShoppingBag className="text-4xl text-pink-50 hover:cursor-pointer hover:text-red-500" />
+                        <h1 className="textSize">Shop Now</h1>
+                      </div>
+                      <div>
+                        {" "}
+                        <FaHeart className="text-4xl text-pink-50 hover:cursor-pointer hover:text-red-500" />
+                        <h1 className="textSize">FAVOURITE</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div className="bg-white text-center">
-                  <h1>NEW</h1>
+                  <h1>NEW2</h1>
                   <p>MOROCCANOIL</p>
                   <p>Hand Cream</p>
                   <p>Maroc</p>
@@ -68,9 +131,24 @@ const JustLanded = () => {
                 </div>
               </div>
               <div>
-                <img src={img1} alt="" />
+                <div class="container">
+                  <img src={img1} alt="" class="image" />
+                  <div class="overlay">
+                    <div class="text flex gap-8">
+                      <div>
+                        <FaShoppingBag className="text-4xl text-pink-50 hover:cursor-pointer hover:text-red-500" />
+                        <h1 className="textSize">Shop Now</h1>
+                      </div>
+                      <div>
+                        {" "}
+                        <FaHeart className="text-4xl text-pink-50 hover:cursor-pointer hover:text-red-500" />
+                        <h1 className="textSize">FAVOURITE</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div className="bg-white text-center">
-                  <h1>NEW</h1>
+                  <h1>NEW2</h1>
                   <p>MOROCCANOIL</p>
                   <p>Hand Cream</p>
                   <p>Maroc</p>
@@ -78,9 +156,24 @@ const JustLanded = () => {
                 </div>
               </div>
               <div>
-                <img src={img3} alt="" />
+                <div class="container">
+                  <img src={img2} alt="" class="image" />
+                  <div class="overlay">
+                    <div class="text flex gap-8">
+                      <div>
+                        <FaShoppingBag className="text-4xl text-pink-50 hover:cursor-pointer hover:text-red-500" />
+                        <h1 className="textSize">Shop Now</h1>
+                      </div>
+                      <div>
+                        {" "}
+                        <FaHeart className="text-4xl text-pink-50 hover:cursor-pointer hover:text-red-500" />
+                        <h1 className="textSize">FAVOURITE</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div className="bg-white text-center">
-                  <h1>NEW</h1>
+                  <h1>NEW2</h1>
                   <p>MOROCCANOIL</p>
                   <p>Hand Cream</p>
                   <p>Maroc</p>
@@ -88,19 +181,24 @@ const JustLanded = () => {
                 </div>
               </div>
               <div>
-                <img src={img4} alt="" />
-                <div className="bg-white text-center">
-                  <h1>NEW</h1>
-                  <p>MOROCCANOIL</p>
-                  <p>Hand Cream</p>
-                  <p>Maroc</p>
-                  <p>Rs. 990</p>
+                <div class="container">
+                  <img src={img3} alt="" class="image" />
+                  <div class="overlay">
+                    <div class="text flex gap-8">
+                      <div>
+                        <FaShoppingBag className="text-4xl text-pink-50 hover:cursor-pointer hover:text-red-500" />
+                        <h1 className="textSize">Shop Now</h1>
+                      </div>
+                      <div>
+                        {" "}
+                        <FaHeart className="text-4xl text-pink-50 hover:cursor-pointer hover:text-red-500" />
+                        <h1 className="textSize">FAVOURITE</h1>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div>
-                <img src={img2} alt="" />
                 <div className="bg-white text-center">
-                  <h1>NEW</h1>
+                  <h1>NEW2</h1>
                   <p>MOROCCANOIL</p>
                   <p>Hand Cream</p>
                   <p>Maroc</p>

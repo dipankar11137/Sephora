@@ -2,10 +2,13 @@ import React from "react";
 import "../../CSS/Navbar.css";
 
 const Navbar3 = () => {
+  const handleMouseOver = (thisElement) => {
+    console.log(thisElement);
+  };
   return (
     <div className="position">
       {" "}
-      <div className="mx-24 mt-8 ">
+      <div className="mx-24 pt-5 ">
         <div className="grid lg:grid-cols-7 md:grid-cols-4 sm:grid-cols-2 gap-x-4 border-b-2 pb-3">
           <div className="dropdown dropdown-hover">
             <label
@@ -27,12 +30,18 @@ const Navbar3 = () => {
           {/* MAKEUP */}
           <div className="dropdown dropdown-hover">
             <label
+              onMouseOver={() => handleMouseOver(this)}
               tabIndex={0}
               className=" m-1 font-bold p-3 hover:text-pink-500 shadowEdit text-center"
             >
               MAKEUP
             </label>
             <ul
+              style={{
+                width: "100vw",
+                zIndex: "10000",
+                backgroundColor: "gray",
+              }}
               tabIndex={0}
               className="mt-3 dropdown-content menu p-2 shadow-lg bg-base-100  w-11/12"
             >
