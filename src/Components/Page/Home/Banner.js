@@ -25,7 +25,7 @@ const Banner = () => {
   };
 
   return (
-    <div className="mt-5">
+    <div className="px-8">
       <div className="">
         <Slider {...settings}>
           <div div className="  ">

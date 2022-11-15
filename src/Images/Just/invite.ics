@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Workable//Calendar
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTAMP:20221111T073235Z
+UID:kgscxwcbkusjrazash4obeiz4i3h5jwi
+DTSTART:20221114T053000Z
+DTEND:20221114T070000Z
+DESCRIPTION:<p>Dear Applicant:<br>Thank you for your interest in the positi
+ on as Software Engineer (Application Support) at Dynamic Solution Innovato
+ rs (DSi) Ltd. We follow some stages to select and recruit an innovator.<br
+ >As the first stage of that\, there will be a written examination. Exam sc
+ hedule &amp\; Address are given in this event link. Please note that this 
+ will be a technical exam. So your performance in the examination will  pla
+ y a vital and key role for your selection and moving forward to the next s
+ tage.\n</p>
+LOCATION:177\,  2nd Lane New DOHS\, Mohakhali\, Dhaka 1206\, Bangladesh
+ORGANIZER;CN=Dynamic Solution Innovators:mailto:c4f52brwb4zxh@events.workab
+ lemail.com
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Interview for Software Engineer (Application Support) job at Dynami
+ c Solution Innovators
+TRANSP:OPAQUE
+URL:http://www.workable.com/events/kgscxwcbkusjrazash4obeiz4i3h5jwi
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;PARTSTAT=NEEDS-AC
+ TION;CN=Dipankar Halder:mailto:dipankar.halder117@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED
+ ;CN=Farzana Shathi:mailto:farzana.shathi@dsinnovators.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED
+ ;CN=Nazmunnahar Rita:mailto:nazmunnahar.rita@dsinnovators.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED
+ ;CN=Samiha Yusuf:mailto:samiha.yusuf@dsinnovators.com
+END:VEVENT
+END:VCALENDAR

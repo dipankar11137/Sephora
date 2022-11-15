@@ -1,46 +1,105 @@
 import React from "react";
-// import "../../CSS/Style.css";
 import "../../CSS/Test.css";
 
 const Test = () => {
   return (
-    <div>
-      <div class="navbar">
-        <a href="#home">Home</a>
-        <a href="#news">News</a>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Dropdown
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <div class="header">
-              <h2>Mega Menu</h2>
-            </div>
-            <div class="row">
-              <div class="column">
-                <h3>Category 1</h3>
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-              </div>
-              <div class="column">
-                <h3>Category 2</h3>
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-              </div>
-              <div class="column">
-                <h3>Category 3</h3>
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-              </div>
-            </div>
-          </div>
+    <nav>
+      <div className="wrapper">
+        <div className="logo">
+          <a href="#">Try it</a>{" "}
         </div>
+        <ui className="nav-links">
+          <li className="bala">
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">manu</a>
+          </li>
+          <li>
+            <a href="#">Megamanu</a>
+            <div className="mega-box">
+              <div className="content">
+                <div className="row">
+                  <header>Design Services</header>
+                  <ul className="mega-links">
+                    <li>
+                      <a href="#">Graphis</a>
+                    </li>
+                    <li>
+                      <a href="#">Graphis</a>
+                    </li>
+                    <li>
+                      <a href="#">Graphis</a>
+                    </li>
+                    <li>
+                      <a href="#">Graphis</a>
+                    </li>
+                    <li>
+                      <a href="#">Graphis</a>
+                    </li>
+                    <li>
+                      <a href="#">Custom logo</a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="row">
+                  <header>Email Services</header>
+                  <ul className="mega-links">
+                    <li>
+                      <a href="#">Graphis</a>
+                    </li>
+                    <li>
+                      <a href="#">web text</a>
+                    </li>
+                    <li>
+                      <a href="#">Graphis</a>
+                    </li>
+                    <li>
+                      <a href="#">Graphis</a>
+                    </li>
+                    <li>
+                      <a href="#">Graphis</a>
+                    </li>
+                    <li>
+                      <a href="#">Web marketing</a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="row">
+                  <header>Security Services</header>
+                  <ul className="mega-links">
+                    <li>
+                      <a href="#">Graphis</a>
+                    </li>
+                    <li>
+                      <a href="#">ssg</a>
+                    </li>
+                    <li>
+                      <a href="#">Graphis</a>
+                    </li>
+                    <li>
+                      <a href="#">Graphis</a>
+                    </li>
+                    <li>
+                      <a href="#">Graphis</a>
+                    </li>
+                    <li>
+                      <a href="#">CCNA logo</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="#">contact</a>
+          </li>
+        </ui>
       </div>
-    </div>
+    </nav>
   );
 };
 

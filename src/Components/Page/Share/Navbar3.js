@@ -1,148 +1,47 @@
 import React from "react";
-import "../../CSS/Navbar.css";
+import "../../CSS/Navbar3.css";
+import Megaitems2 from "./Megaitems2";
+import MegaManuItems from "./MegaManuItems";
 
 const Navbar3 = () => {
-  const handleMouseOver = (thisElement) => {
-    console.log(thisElement);
-  };
   return (
-    <div className="position">
-      {" "}
-      <div className="mx-24 pt-5 ">
-        <div className="grid lg:grid-cols-7 md:grid-cols-4 sm:grid-cols-2 gap-x-4 border-b-2 pb-3">
-          <div className="dropdown dropdown-hover">
-            <label
-              tabIndex={0}
-              className=" m-1 font-bold p-3 hover:text-pink-500 hover:shadow-xl text-center"
-            >
-              SALE
-            </label>
-            {/* <ul
-              tabIndex={0}
-              className="mt-3 dropdown-content menu p-2 shadow-lg bg-base-100  w-11/12"
-            >
-              <div className="gird grid-cols-2">
-                <h1>hello</h1>
-                <h2>hii</h2>
-              </div>
-            </ul> */}
-          </div>
-          {/* MAKEUP */}
-          <div className="dropdown dropdown-hover">
-            <label
-              onMouseOver={() => handleMouseOver(this)}
-              tabIndex={0}
-              className=" m-1 font-bold p-3 hover:text-pink-500 shadowEdit text-center"
-            >
-              MAKEUP
-            </label>
-            <ul
-              style={{
-                width: "100vw",
-                zIndex: "10000",
-                backgroundColor: "gray",
-              }}
-              tabIndex={0}
-              className="mt-3 dropdown-content menu p-2 shadow-lg bg-base-100  w-11/12"
-            >
-              <div className="gird grid-cols-2">
-                <h1>hello</h1>
-                <h2>hii</h2>
-              </div>
-            </ul>
-          </div>
+    <div className="mb-20 position ">
+      <div className="">
+        <nav className="border-b-2 bg-white">
+          <div className="wrapper">
+            <ui className="nav-links grid lg:grid-cols-7 gap-x-20 text-center ">
+              <li className=" ">
+                <a href="#">Sale</a>
+                <MegaManuItems />
+              </li>
 
-          {/* SKINCARE */}
-          <div className="dropdown dropdown-hover">
-            <label
-              tabIndex={0}
-              className=" m-1 font-bold p-3 hover:text-pink-500 hover:border-t-2 border-t-slate-400 hover:shadow-xl text-center"
-            >
-              SKINCARE
-            </label>
-            <ul
-              tabIndex={0}
-              className=" mt-3 dropdown-content menu p-2 shadow-lg bg-base-100  w-11/12"
-            >
-              <div className="gird grid-cols-2">
-                <h1>hello</h1>
-                <h2>hii</h2>
-              </div>
-            </ul>
+              <li className="">
+                <a href="#">MAKEUP</a>
+                <Megaitems2 />
+              </li>
+              <li>
+                <a href="#">SKINCARE</a>
+                <MegaManuItems />
+              </li>
+              <li>
+                <a href="#">FRAGRANCE</a>
+                <MegaManuItems />
+              </li>
+              <li>
+                <a href="#">HAIRCARE</a>
+                <Megaitems2 />
+              </li>
+              <li>
+                <a href="#">TOOLS </a>
+                <MegaManuItems />
+              </li>
+              <li>
+                <a href="#">BRANDS</a>
+                <MegaManuItems />
+              </li>
+            </ui>
           </div>
-          {/* FRAGRANCE */}
-          <div className="dropdown dropdown-hover">
-            <label
-              tabIndex={0}
-              className=" m-1 font-bold p-3 hover:text-pink-500 hover:shadow-xl text-center"
-            >
-              FRAGRANCE
-            </label>
-            <ul
-              tabIndex={0}
-              className=" mt-3 dropdown-content menu p-2 shadow-lg bg-base-100  w-11/12"
-            >
-              <div className="gird grid-cols-2">
-                <h1>hello</h1>
-                <h2>hii</h2>
-              </div>
-            </ul>
-          </div>
-          {/* HAIRCARE */}
-          <div className="dropdown dropdown-hover">
-            <label
-              tabIndex={0}
-              className=" m-1 font-bold p-3 hover:text-pink-500 hover:shadow-xl text-center"
-            >
-              HAIRCARE
-            </label>
-            <ul
-              tabIndex={0}
-              className=" mt-3 dropdown-content menu p-2 shadow-lg bg-base-100  w-11/12"
-            >
-              <div className="gird grid-cols-2">
-                <h1>hello</h1>
-                <h2>hii</h2>
-              </div>
-            </ul>
-          </div>
-          {/* TOLLS & BRUSHES */}
-          <div className="dropdown dropdown-hover">
-            <label
-              tabIndex={0}
-              className=" m-1 font-bold p-3 hover:text-pink-500 hover:shadow-xl text-center"
-            >
-              TOLLS & BRUSHES
-            </label>
-            <ul
-              tabIndex={0}
-              className=" mt-3 dropdown-content menu p-2 shadow-lg bg-base-100  w-11/12"
-            >
-              <div className="gird grid-cols-2">
-                <h1>hello</h1>
-                <h2>hii</h2>
-              </div>
-            </ul>
-          </div>
-          {/* BRANDS */}
-          <div className="dropdown dropdown-hover">
-            <label
-              tabIndex={0}
-              className=" m-1 font-bold p-3 hover:text-pink-500 hover:shadow-xl text-center"
-            >
-              SKINCARE
-            </label>
-            <ul
-              tabIndex={0}
-              className=" mt-3 dropdown-content menu p-2 shadow-lg bg-base-100  w-11/12"
-            >
-              <div className="gird grid-cols-2">
-                <h1>hello</h1>
-                <h2>hii</h2>
-              </div>
-            </ul>
-          </div>
-        </div>
+        </nav>
       </div>
     </div>
   );
